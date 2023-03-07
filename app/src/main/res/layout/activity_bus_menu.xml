@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".BusMenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Destination"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/white"
+        android:textIsSelectable="true"
+        android:textAllCaps="true"  />
+    <Button
+        android:id="@+id/bus_dhaka"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textStyle="bold"
+        android:onClick="popup"/>
+    <Button
+        android:id="@+id/bus_chottogram"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chottogram"
+        android:textStyle="bold"
+        android:onClick="popup"/>
+    <Button
+        android:id="@+id/bus_sylhet"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sylhet"
+        android:textStyle="bold"
+        android:onClick="popup"/>
+    <Button
+        android:id="@+id/menu_go"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textStyle="bold"
+        android:onClick="popup"/>
+
+
+</LinearLayout>

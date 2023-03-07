@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_text"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/white"
+        android:textIsSelectable="true"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:id="@+id/bus_button"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_button"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/bus_icon"
+        android:onClick="popup"/>
+
+    <Button
+        android:id="@+id/train_button"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/train_button"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/train_icon"
+        android:onClick="popup"
+        />
+
+    <Button
+        android:id="@+id/air_button"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/air_button"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/plane_icon"
+        android:onClick="popup"
+        />
+
+    <Button
+        android:id="@+id/ep_button"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ep_button"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ambulance_icon"
+        android:onClick="popup"
+        />
+    <Button
+        android:id="@+id/exit_button"
+        android:padding="7dp"
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_button"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/exit_icon"
+        android:onClick="popup"
+        />
+
+
+
+
+</LinearLayout>
